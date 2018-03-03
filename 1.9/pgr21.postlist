@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.0">
+    <sb type="postlist" site="pgr21">
+        <encoding type="UTF8"/>
+
+        <CLIP xpath="//tr[@class='listtr'] | //tr[@class='listnotice listtr']" dump="1">
+			<title          xpath="/html/body/td[@class='tdsub new']/a | 
+									/html/body/td[@class='tdsub old']/a | 
+									/html/body/td[@class='tdsub notice']/a" dump="1" dumpOption="clearTag"/>
+			<postURL        xpath="/html/body/td[@class='tdsub new']/a/attribute::href |
+									/html/body/td[@class='tdsub old']/a/attribute::href |
+									/html/body/td[@class='tdsub notice']/a/attribute::href"/>
+			<replyCount     xpath="/html/body/td[@class='tdsub new']/span |
+									/html/body/td[@class='tdsub old']/span |
+							 		/html/body/td[@class='tdsub notice']/span"/>
+			<writerNickname xpath="/html/body/td[@class='tdname']/span"/>
+			<writeDate      xpath="/html/body/td[@class='tddate']/span"/>
+			<viewCount      xpath="/html/body/td[@class='tdhit']"/>
+			<recommendCount xpath="/html/body/td[@class='tdvote']"/>
+			
+			<noticePost		xpath="/html/body/td[@class='tdsub notice']/attribute::class"/>
+        </CLIP>
+        
+        <nextPage       xpath="//a[@class='currentPage']/parent::node()/following-sibling::li[1]/a[1]/attribute::href"/>
+        
+    </sb>
+</superBrowser>

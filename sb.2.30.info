@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.0">
+    <sb type="site" name="확장설정">
+       <site name="뽐뿌!(new)" enable="YES" 
+        		boardlist="http://[YOUR_HOST_URL]/superbrowser/1.9/ppomppu_pc.boardlist" 
+        		postlist="http://[YOUR_HOST_URL]/superbrowser/1.9/ppomppu_pc.postlist" 
+        		post="http://[YOUR_HOST_URL]/superbrowser/1.9/ppomppu_pc.post" 
+        		login="http://[YOUR_HOST_URL]/superbrowser/1.9/ppomppu.login" 
+        		id="ppomppu" description="http://www.ppomppu.co.kr"/>
+
+		<site name="PGR21(new)" enable="YES" 
+				boardlist="http://[YOUR_HOST_URL]/superbrowser/1.9/pgr21.boardlist" 
+				postlist="http://[YOUR_HOST_URL]/superbrowser/1.9/pgr21.postlist" 
+				post="http://[YOUR_HOST_URL]/superbrowser/1.9/pgr21.post" 
+				id="pgr21" description="http://www.pgr21.com"/>
+		</sb>
+</superBrowser>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.0">
+	<sb type="postlist" site="뽐뿌" boardtype="hot">
+        <encoding type="euc-kr"/>
+        
+		<CLIP xpath="//table[@class='board_table']/tr[@class='line']" dump="1" dumpOption="includeSelf">
+<!--			<noticePost		xpath="/html/body/tr/attribute::class" compareString="list_notice"/>-->
+			<titleHeader	xpath="/html/body/tr/td[1]/a/text()"/>
+            <writerAvatarNickname  xpath="/html/body/tr/td[2]/div/nobr/a/img/attribute::alt |
+            								/html/body/tr/td[2]/text()"/>
+
+            <title          xpath="/html/body/tr/td[4]/a[1]/text()"/>
+            <postURL        xpath="/html/body/tr/td[4]/a[1]/attribute::href"/>
+            <replyCount     xpath="/html/body/tr/td[4]/sup/span//text()"/>
+            
+            <writeDate      xpath="/html/body/tr/td[5]/text()"/>
+            <recommendCount xpath="/html/body/tr/td[6]"/>
+        </CLIP>
+        
+        <nextPage       xpath="//a/b[text()='다음페이지']/parent::a/attribute::href"/>
+
+
+    </sb>
+    
+	<sb type="postlist" site="뽐뿌" boardtype="gall">
+        <encoding type="euc-kr"/>
+        
+		<CLIP xpath="//div[@id='bbs_wrap']/div/table[2]/tr/td/table/tr/td/table" dump="1">
+			<titleIcon		xpath="/html/body/tr[1]/td/a/img/attribute::alt"/>
+            <writerNickname  
+            				xpath="/html/body/tr[2]/td/span/a[2]/img/attribute::alt |
+									/html/body/tr[2]/td/span/a[2]/font/text()"/>
+
+            <title          xpath="/html/body/tr[2]/td/span/a[1]/font/text()"/>
+            <postURL        xpath="/html/body/tr[2]/td/span/a[1]/attribute::href"/>
+            <viewCount      xpath="/html/body/tr[2]/td/div/text()" substring-start="h:" substring-end="c:"/>
+            <replyCount     xpath="/html/body/tr[2]/td/div/text()" substring-start="c:"/>
+            
+            <writeDate      xpath="/html/body/tr[2]/td/div/revolution/revolution/text()" dump="1" dumpOption="clearTag"/>
+            
+        </CLIP>
+        
+        <nextPage       xpath="//font[text()='-다음페이지']/parent::a/attribute::href"/>
+
+    </sb>
+    
+	<sb type="postlist" site="뽐뿌" boardtype="icon">
+        <encoding type="euc-kr"/>
+        
+		<CLIP xpath="//table[@id='revolution_main_table']/form/tr" dump="1" dumpOption="includeSelf">
+			<noticePost		xpath="/html/body/tr/attribute::class" compareString="list_notice"/>
+			<titleHeader	xpath="/html/body/tr/td[last()-5]/nobr/text()"/>
+            <writerAvatarNickname  xpath="/html/body/tr/td[last()-4]/div/nobr/a/img/attribute::alt |
+            								/html/body/tr/td[last()-4]/div/nobr/a/span/text()"/>
+
+			<titleIcon      xpath="/html/body/tr/td[last()-3]/table/tr/td[1]/a[1]/img/attribute::alt"/>
+            <title          xpath="/html/body/tr/td[last()-3]/table/tr/td[2]/a[1]/font/text()"/>
+            <postURL        xpath="/html/body/tr/td[last()-3]/table/tr/td[2]/a[1]/attribute::href"/>
+            <replyCount     xpath="/html/body/tr/td[last()-3]/table/tr/td[2]/span/span/text()"/>
+            
+            <writeDate      xpath="/html/body/tr/td[last()-2]/attribute::title"/>
+            <recommendCount xpath="/html/body/tr/td[last()-1]"/>
+            <viewCount      xpath="/html/body/tr/td[last()]"/>
+        </CLIP>
+        
+        <nextPage       xpath="//font[text()='-다음페이지']/parent::a/attribute::href"/>
+
+    </sb>
+
+	<sb type="postlist" site="뽐뿌" boardtype="market">
+		<encoding type="euc-kr"/>
+	
+		<CLIP xpath="//table[@id='revolution_main_table']/form/tr" dump="1" dumpOption="includeSelf">
+			<noticePost		xpath="/html/body/tr/attribute::class" compareString="list_notice"/>
+			<titleHeader	xpath="/html/body/tr/td[@class='han4 list_vspace'][1]/nobr/text()"/>
+			<writerAvatarNickname  xpath="/html/body/tr/td[@class='list_vspace'][1]//a[1]/img[1]/attribute::alt |
+											/html/body/tr/td[@class='list_vspace'][1]//a/span[1]/text()"/>
+
+			<title          xpath="/html/body/tr/td[@align='left'][last()]//font[@class='list_title']/text()"/>
+			<postURL        xpath="/html/body/tr/td[@align='left'][last()]//font[@class='list_title']/parent::a[1]/attribute::href"/>
+			<titleIcon      xpath="/html/body/tr/td[@align='left'][last()]//a[1]/img/attribute::alt"/>
+			<replyCount     xpath="/html/body/tr/td[@align='left'][last()]//span[@class='list_comment2']/span/text()"/>
+		
+			<writeDate      xpath="/html/body/tr/td[@align='left']//div[2]/div[2] |
+									/html/body/tr/td[last()]"/>
+		</CLIP>
+	
+		<nextPage       xpath="//font[text()='-다음페이지']/parent::a/attribute::href"/>
+
+	</sb>
+    
+    <sb type="postlist" site="뽐뿌">
+        <encoding type="euc-kr"/>
+        
+		<CLIP xpath="//table[@id='revolution_main_table']/form/tr" dump="1" dumpOption="includeSelf">
+			<noticePost		xpath="/html/body/tr/attribute::class" compareString="list_notice"/>
+			<titleHeader	xpath="/html/body/tr/td[last()-5]/nobr/text()"/>
+            <writerAvatarNickname  xpath="/html/body/tr/td[last()-4]/div/nobr/a/img[1]/attribute::alt |
+            								/html/body/tr/td[last()-4]/div/nobr/a/span/text()"/>
+
+            <title          xpath="/html/body/tr/td[last()-3]/a[1]/font/text()"/>
+            <postURL        xpath="/html/body/tr/td[last()-3]/a[1]/attribute::href"/>
+            <replyCount     xpath="/html/body/tr/td[last()-3]/span/span/text()"/>
+            
+            <writeDate      xpath="/html/body/tr/td[last()-2]/attribute::title"/>
+            <recommendCount xpath="/html/body/tr/td[last()-1]"/>
+            <viewCount      xpath="/html/body/tr/td[last()]"/>
+        </CLIP>
+        
+        <nextPage       xpath="//font[text()='-다음페이지']/parent::a/attribute::href"/>
+
+    </sb>
+</superBrowser>

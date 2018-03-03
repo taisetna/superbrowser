@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.0">
+    <sb type="boardlist" site="뽐뿌">
+        <category name="뽐뿌" index="0">
+			<board name="뽐뿌게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu" boardtype="icon"/>
+			<board name="휴대폰뽐뿌" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu2" boardtype="icon"/>
+			<board name="해외뽐뿌" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu4" boardtype="icon"/>
+			<board name="신제품뽐뿌" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu3" boardtype="icon"/>
+			<board name="오프라인뽐뿌" url="http://social.ppomppu.co.kr/zboard/zboard.php?id=ppomppu5"/>
+			<board name="뷰티뽐뿌" url="http://social.ppomppu.co.kr/zboard/zboard.php?id=ppomppu7"/>
+			<board name="취업뽐뿌" url="http://job.ppomppu.co.kr/zboard/zboard.php?id=job"/>
+			<board name="업체뽐뿌" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu6" boardtype="icon"/>
+			<board name="업체게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket" boardtype="icon"/>
+			<board name="휴대폰업체" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket2" boardtype="icon"/>
+			<board name="통신업체" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket3" boardtype="icon"/>
+			<category name="HOT게시글">
+				<board name="HOT전체글" 	url="http://www.ppomppu.co.kr/hot.php" boardtype="hot" needlogin=""/>
+				<board name="HOT게시글" 	url="http://www.ppomppu.co.kr/hot.php?category=2" boardtype="hot" needlogin=""/>
+				<board name="인기글" 		url="http://www.ppomppu.co.kr/hot.php?category=1" boardtype="hot" needlogin=""/>
+			</category>
+		</category>
+        <category name="이벤트" index="1">
+			<board name="이벤트게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=event" boardtype="icon"/>
+			<board name="쿠폰게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=coupon" boardtype="icon"/>
+			<board name="모바일이벤트" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=mobile" boardtype="icon"/>
+			<board name="체험단모집" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=experience"/>
+			<board name="다운로드 쿠폰" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=wcoupon"/>
+        </category>
+        <category name="정보" index="2">
+			<board name="기타정보" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=etc_info" boardtype="icon"/>
+			<board name="사용기" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=review" boardtype="icon"/>
+			<board name="수령/이용기" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=receive" boardtype="icon"/>
+			<board name="구매게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=buy" boardtype="icon"/>
+			<board name="자랑게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=wow" boardtype="icon"/>
+			<board name="IT소식" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=news2"/>
+			<board name="뉴스 게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=news"/>
+			<board name="체험단/제휴" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=agentnews" boardtype="icon"/>
+        </category>
+        <category name="커뮤니티" index="3">
+			<board name="자유게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=freeboard" />
+			<board name="핫이슈게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=hotissue" needlogin="1"/>
+			<board name="이슈정치토론" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=issue" needlogin="1"/>
+			<board name="카툰/유머" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=humor"/>
+			<board name="질문/요청" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=help"/>
+			<board name="느낌이있는공간" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=feel"/>
+			<board name="자기소개" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=grade"/>
+        </category>
+        <category name="갤러리" index="4">
+			<board name="자유갤러리" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=free_picture" boardstyle="gallery3" boardtype="gall"/>
+			<board name="모바일갤러리" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=mobile_gallery" boardstyle="gallery3" boardtype="gall"/>
+			<board name="배경화면" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=bg_gallery" boardstyle="gallery3" boardtype="gall"/>
+			<board name="링크갤러리" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=picture" boardstyle="gallery3" boardtype="gall"/>
+        </category>
+        <category name="장터" index="5">
+			<board name="뽐뿌장터" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=market" needlogin="1" boardtype="market"/>
+			<board name="휴대폰장터" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=market_phone" needlogin="1" boardtype="market"/>
+			<board name="쿠폰장터" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=cmarket" needlogin="1" boardtype="market"/>
+			<board name="온라인장터" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=onmarket" needlogin="1" boardtype="market"/>
+			<board name="소셜쿠폰장터" url="http://social.ppomppu.co.kr/zboard/zboard.php?id=market_social" needlogin="1" boardtype="market"/>
+			<board name="해외구매장터" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=market_oversea" needlogin="1" boardtype="market"/>
+			<board name="디아블로장터" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=market_item" needlogin="1" boardtype="market"/>
+			<board name="재능장터" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=market_talent" needlogin="1" boardtype="market"/>
+			<board name="구인게시판" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=guin" needlogin="1" boardtype="market"/>
+			<board name="장터이야기" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=market_story" needlogin="1" boardtype="market"/>
+			<board name="추천릴레이" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=relay" needlogin="1" boardtype="market"/>
+			<board name="공동구매" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=gonggu" needlogin="1" boardtype="market"/>
+			<board name="사랑공간" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=love" needlogin="1" boardtype="market"/>
+        </category>
+        <category name="포럼" index="0">
+        	<category name="휴대폰/가전" index="0">
+				<board name="휴대폰포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=phone"/>
+				<board name="구입개통수령" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=phone3"/>
+				<board name="휴대폰질문" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=phone2"/>
+				<board name="아이폰포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=iphone"/>
+				<board name="아이패드포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=tablet"/>
+				<board name="안드로이드" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=android"/>
+				<board name="안드로이드탭" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=androidtab"/>
+				<board name="윈도우태블릿" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=wintab"/>
+				<board name="기타스마트폰" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=smartphone"/>
+				<board name="가전포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=av"/>
+				<board name="미니기기포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=mini"/>
+				<board name="컴퓨터포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=computer"/>
+				<board name="NAS포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=nas"/>
+				<board name="맥포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=macintosh"/>
+        	</category>
+        	<category name="스포츠/레저" index="0">
+				<board name="골프포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=golf"/>
+				<board name="낚시포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=fishing"/>
+				<board name="등산포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=climb"/>
+				<board name="바이크포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=motorbike"/>
+				<board name="생활스포츠" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=lifesports"/>
+				<board name="스포츠포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=sports"/>
+				<board name="야구포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=baseball"/>
+				<board name="자동차포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=car"/>
+				<board name="자전거포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=bike"/>
+				<board name="축구포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=soccer"/>
+				<board name="캠핑포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=camping"/>
+				<board name="테니스포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=tennis"/>
+				<board name="건강/헬스" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=health"/>
+        	</category>
+        	<category name="경제/지역" index="0">
+				<board name="재테크포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=money"/>
+				<board name="증권포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=stock" needlogin="1"/>
+				<board name="창업/자영업" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=soho"/>
+				<board name="비트코인" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=bitcoin"/>
+				<board name="로또포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=lotto"/>
+				<board name="토토/프로토" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=toto"/>
+				<board name="주거포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=house"/>
+				<board name="지역별포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=offline"/>
+				<board name="국가별포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=country"/>
+				<board name="해외포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=oversea"/>
+				<board name="중국포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=china"/>
+        	</category>
+        	<category name="생활" index="0">
+				<board name="30+포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=f7080" needlogin="1"/>
+				<board name="결혼포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=wedding"/>
+				<board name="고민포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=problem"/>
+				<board name="금연포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=nonsmoking"/>
+				<board name="동식물포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=pet"/>
+				<board name="마트포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=mart"/>
+				<board name="맛집/요리" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=food"/>
+				<board name="메디컬포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=medical"/>
+				<board name="미즈포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=miz" needlogin="1"/>
+				<board name="배달음식" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=delivery_food"/>
+				<board name="성인포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=adult" needlogin="1"/>
+				
+				<category name="성인포럼" index="0">
+					<board name="자유주제" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=adult&amp;category=1" icon="" needlogin="1"/>
+					<board name="고민/상담" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=adult&amp;category=2" icon="" needlogin="1"/>
+					<board name="정보/강좌" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=adult&amp;category=3" icon="" needlogin="1"/>
+					<board name="19+" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=adult&amp;category=4" icon="" needlogin="1"/>
+					<board name="성인유머" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=adult&amp;category=5" icon="" needlogin="1"/>
+				</category>
+
+				<board name="여행포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=tour"/>
+				<board name="연애포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=couple"/>
+				<board name="운세포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=fortune"/>
+				<board name="육아포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=baby"/>
+				<board name="자취포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=alone"/>
+				<board name="종교포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=religion"/>
+				<board name="직장인포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=worker"/>
+				<board name="커피포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=coffee"/>
+        	</category>
+        	<category name="게임/취미" index="0">
+				<board name="게임/오락" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=game"/>
+				<board name="게임기포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=gamer"/>
+				<board name="보드게임" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=boardgame"/>
+				<board name="종목별게임" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=webgame"/>
+				<board name="카카오톡 게임" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=kakao_game"/>
+				<board name="플레시게임" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=flash_game"/>
+				<board name="LOL포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=LOL"/>
+				<board name="디아블로포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=diablo"/>
+				<board name="피파온라인" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=fifaonline"/>
+				<board name="DIY포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=diy"/>
+				<board name="시계포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=watch"/>
+				<board name="주류포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=alcohol"/>
+				<board name="취미포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=hobby"/>
+        	</category>
+        	<category name="문화" index="0">
+				<board name="TV/방송포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=saycast"/>
+				<board name="독서/자작글" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=book"/>
+				<board name="만화/애니" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=animation"/>
+				<board name="문화포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=munwha"/>
+				<board name="사진/카메라" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=camera"/>
+				<board name="아나운서" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=announcer"/>
+				<board name="연예인포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=star"/>
+				<board name="영화포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=movie"/>
+				<board name="음악/악기" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=music"/>
+			</category>
+        	<category name="기타" index="0">
+				<board name="개발자포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=developer"/>
+				<board name="공포포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=fear"/>
+				<board name="군대포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=army"/>
+				<board name="문구포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=mungu"/>
+				<board name="문서/서식" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=stylesheet"/>
+				<board name="뷰티/케어" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=beauty"/>
+				<board name="역사포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=history"/>
+				<board name="스타일포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=style" boardtype="icon"/>
+				<board name="전/현/무포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=whatever"/>
+				<board name="알바포럼" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=alba"/>
+				<board name="학습/취업" url="http://www.ppomppu.co.kr/zboard/zboard.php?id=study"/>
+        	</category>
+        </category>
+        <category name="소셜커머스" index="0">
+			<board name="오프라인뽐뿌" url="http://social.ppomppu.co.kr/zboard/zboard.php?id=ppomppu5"/>
+			<board name="소셜쿠폰장터" url="http://social.ppomppu.co.kr/zboard/zboard.php?id=market_social" needlogin="1"/>
+			<board name="소셜게시판" url="http://social.ppomppu.co.kr/zboard/zboard.php?id=social"/>
+			<board name="소셜게시판" url="http://social.ppomppu.co.kr/zboard/zboard.php?id=social"/>
+        </category>
+    </sb>
+</superBrowser>

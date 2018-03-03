@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.1">
+	 <sb type="post" site="뽐뿌">
+        <encoding type="euc-kr"/>
+        
+        <article xpath="//td[@class='board-contents']" dump="1" dumpOption="selfInclude"/>
+						
+<!--		        <article xpath="//div[@id='header_box']/following-sibling::table[5] |
+        				//table[@class='pic_bg']//td[@class='han'][1] |
+						//div[@id='bbs_wrap']/div/table[@class='pic_bg']/tr/td/table/tbody/tr/td" dump="1"/>
+-->
+
+        <!-- link -->
+        <article2 xpath="//div[@class='wordfix']" dump="1" dumpOption="selfInclude"/>
+<!--        <article2                 xpath="//div[@id='bbs_wrap']/div[1]/table[@class='info_bg'][1]/tr/td/table/tr/td[5]/a[last()]/attribute::href |
+										//div[@id='bbs_wrap']/div[1]/table[@class='info_bg'][1]/tr/td/table/tr/td[5]/div[1]/a[1]/attribute::href"/>
+-->        
+         <!-- 덧글 용 파라메터 -->
+        <commentAction	method="post" 
+        				action="http://www.ppomppu.co.kr/zboard/vote_ex.php" 
+						param="page=1&amp;select_arrange=headnum&amp;desc=asc&amp;sn=off&amp;ss=off&amp;sc=off&amp;ajax_flag=1&amp;c_page=1&amp;vote=0&amp;pid=0&amp;depth=0&amp;id=SBPARAM_ID&amp;no=SBPARAM_NO&amp;c_no=0&amp;memo=SBPARAM_COMMENT" 
+        				referer=""
+        				success="adjust_div"
+        				encoding="utf-8"
+        				needRefresh="1"/>
+        				
+		<recommentAction	method="post" 
+        				action="http://www.ppomppu.co.kr/zboard/vote_ex.php" 
+						param="page=1&amp;select_arrange=headnum&amp;desc=asc&amp;sn=off&amp;ss=off&amp;sc=off&amp;ajax_flag=1&amp;c_page=1&amp;vote=0&amp;pid=SBPARAM_PID&amp;depth=0&amp;id=SBPARAM_ID&amp;no=SBPARAM_NO&amp;c_no=0&amp;memo=&lt;!--SBPARAM_C_NO|1--&gt; SBPARAM_COMMENT" 
+        				referer=""
+        				success="adjust_div"
+        				encoding="utf-8"
+        				needRefresh="1"/>
+
+		 <commentDeleteAction	method="get" 
+						action="http://www.ppomppu.co.kr/zboard/del_comment_ok.php"		
+						pathComponent="?id=SBPARAM_ID&amp;page=0&amp;sn1=&amp;divpage=&amp;no=SBPARAM_NO&amp;c_no=SBPARAM_C_NO"
+						referer=""
+						success=""
+						needRefresh="1"/>
+						
+		<commentNextURL		url="http://www.ppomppu.co.kr/zboard/list2_comment.php" post="id=SBPARAM_ID&amp;no=SBPARAM_NO&amp;c_page=SBPARAM_CPAGE"/>
+
+		<SBPARAM_ID			xpath="//input[@id='copyurl']/attribute::value" substring-start="id=" substring-end="&amp;"/>
+		<SBPARAM_NO			xpath="//input[@id='copyurl']/attribute::value" substring-start="no="/>
+<!--		<SBPARAM_CPAGE		xpath="//font[@class='page_inert']/following-sibling::a[1]/text()"/>-->
+
+		<comment depth="0" writertype="3">
+
+			<cWriterAvatarNickname   	xpath="//div[@id='quote']/div/div/div/table/tr/td[5]/b//img/attribute::src | 
+											   //div[@id='quote']/div/div/div/table/tr/td[5]/b//text() |
+											   /html/body/div/div/div/table/tr/td[5]/b//img/attribute::src | 
+											   /html/body/div/div/div/table/tr/td[5]/b//text()"/>
+			<cWriteDate   		xpath="//div[@id='quote']/div/div/div/table/tr/td[6]/font |
+										/html/body/div/div/div/table/tr/td[6]/font" dump="1" dumpOption="clearTagWithSpace"/>
+			
+			<content   			xpath="//div[@id='quote']/div/div/div/table/tr/td[5]/div[1] | 
+										/html/body/div/div/div/table/tr/td[5]/div[1]" dump="1"/>
+			<!--
+			<commentID			xpath="/html/body/script/text()" substring-start="(" substring-end=","/>
+			<parentID			xpath="/html/body/script/text()" substring-start="," substring-end=","/>
+			-->
+			<commentID			xpath="//div[@id='quote']/script[position()>1]/text() | 
+										/html/body/script/text()" substring-start="(" substring-end=","/>
+			<parentID			xpath="//div[@id='quote']/script[position()>1]/text() |
+										/html/body/script/text()" substring-start="," substring-end=","/>
+
+			<SBPARAM_PID		xpath="//div[@id='quote']/script[position()>1]/text() |
+										/html/body/script/text()" substring-start="(" substring-end=","/>
+			<SBPARAM_C_NO		xpath="//div[@id='quote']/script[position()>1]/text() |
+										/html/body/script/text()" substring-start="(" substring-end=","/>
+			
+			<enableDelete		xpath="//div[@id='quote']/div/div/div/table/tr/td[last()]/span[1]/a/text() |
+										/html/body/div/div/div/table/tr/td[last()]/span[1]/a/text()" compareString="[삭제]"/>
+										
+		</comment>
+
+		<SBPARAM_CPAGE		xpath="//font[@class='page_inert']/following-sibling::a[1]/text()" uniqueItem="1"/>
+		
+		
+     </sb>
+
+
+
+</superBrowser>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.0">
+    <sb type="boardlist" site="pgr21">
+        <category name="게시판">
+            <board name="게임게시판" url="http://pgr21.com/pb/pb.php?id=free2" icon=""/>
+            <board name="자유게시판" url="http://pgr21.com/pb/pb.php?id=freedom" icon=""/>
+            <board name="월드컵" url="http://pgr21.com/pb/pb.php?id=worldcup" icon=""/>
+            <board name="토너먼트" url="http://pgr21.com/pb/pb.php?id=tournament" icon=""/>
+            <board name="유머게시판" url="http://pgr21.com/pb/pb.php?id=humor" icon=""/>
+            <board name="질문" url="http://pgr21.com/pb/pb.php?id=qna" icon=""/>
+            <board name="Q&amp;A" url="http://pgr21.com/pb/pb.php?id=bug" icon=""/>
+            <board name="불판" url="http://pgr21.com/pb/pb.php?id=bulpan" icon=""/>
+            <board name="토론" url="http://pgr21.com/pb/pb.php?id=discuss" icon=""/>
+            <board name="게임" url="http://pgr21.com/pb/pb.php?id=newvod" icon=""/>
+            <board name="평점" url="http://pgr21.com/pb/pb.php?id=valuation" icon=""/>
+            <board name="연재" url="http://pgr21.com/pb/pb.php?id=series" icon=""/>
+            <board name="전략" url="http://pgr21.com/pb/pb.php?id=daku" icon=""/>
+            <board name="게임뉴스" url="http://pgr21.com/pb/pb.php?id=gamenews" icon=""/>
+            <board name="이벤트" url="http://pgr21.com/pb/pb.php?id=event" icon=""/>
+            <board name="인터뷰" url="http://pgr21.com/pb/pb.php?id=interview" icon=""/>
+            <board name="자료실" url="http://pgr21.com/pb/pb.php?id=pds" icon=""/>
+            <board name="ACE" url="http://pgr21.com/pb/pb.php?id=ace" icon=""/>
+            <board name="추천" url="http://pgr21.com/pb/pb.php?id=recommend" icon=""/>
+		</category>
+    </sb>
+</superBrowser>

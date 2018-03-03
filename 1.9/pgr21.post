@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.0">
+    <sb type="post" site="pgr21">
+        <encoding type="UTF8"/>
+        <article                xpath="//div[@class='articleArea']/parent::span[1]" dump="1" dumpOption="removeTag(script)"/>
+        <!--<article                xpath="//div[@class='articleArea']" dump="1" dumpOption="removeTag(script)"/>-->
+	
+	
+		<comment depth="0" writertype="3">
+			<cWriterNickname 	xpath="//div[@class='cmtWrap']//div[@class='vcm']/div[@class='aReply']/span[@class='cmtName']/span[2]"/>
+			<cWriteDate         xpath="//div[@class='cmtWrap']//div[@class='vcm']/div[@class='vc_right']/span[@class='time']"/>
+			<content            xpath="//div[@class='cmtWrap']//div[@class='vcm']/div[@class='cmemo']/span[1]" dump="1"/>
+			
+			<commentID			xpath="//div[@class='cmtWrap']/script[@type='text/javascript'][position()>1]/text()" substring-start="," substring-end=","/>
+			<parentID			xpath="//div[@class='cmtWrap']/script[@type='text/javascript'][position()>1]/text()" substring-start="(" substring-end=","/>
+		</comment>
+        
+        
+		
+    </sb>
+</superBrowser>
+
+
+
+<!--
+<?xml version="1.0" encoding="UTF-8" ?>
+<superBrowser version="1.0">
+    <sb type="post" site="pgr21">
+        <encoding type="UTF8"/>
+        <article                xpath="//table[@class='listhead']/tr/td[1]/span[1]" dump="1" dumpOption="removeTag(script)"/>
+	
+		<comment depth="0" writertype="3">
+			<cWriterNickname 	xpath="//table[@class='listhead']/following-sibling::div/table[1]/tr[1]/td[1]/span[1]/b[1]/span[1]"/>
+			<cWriteDate         xpath="//table[@class='listhead']/following-sibling::div/table[1]/tr[1]/td[2]/span[1]"/>
+			<content            xpath="//table[@class='listhead']/following-sibling::div/table[1]/tr[2]/td[1]/span[1]" dump="1"/>
+			
+			<commentID			xpath="//table[@class='listhead']/following-sibling::script[position()>1]/text()" substring-start="," substring-end=","/>
+			<parentID			xpath="//table[@class='listhead']/following-sibling::script[position()>1]/text()" substring-start="(" substring-end=","/>
+		</comment>
+    </sb>
+</superBrowser>
+
+-->
